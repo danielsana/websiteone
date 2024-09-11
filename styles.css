@@ -1,0 +1,36 @@
+*{
+ margin: 0;
+ padding: 0;
+ color: black;
+}
+.navbar{
+    background-color: rgb(23, 170, 23);
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+.navbar h1{
+    color: white;
+}
+.links{
+    margin: 10px;
+}
+.links a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    width: 300px;
+}
+.links a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
